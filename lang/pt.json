@@ -7,7 +7,7 @@
     "online": "/me %%BOTNAME%% v%%VERSION%% online!",
 
 
-    "welcome": "Bem vindo(a), %%NAME%%, Leia as Regras na descrição, instale o RCS para usar o auto woot e os gif personalizado aqui -> https://rcs.radiant.dj/install Divirta-se!"
+    "welcome": "Bem vindo(a), %%NAME%%, Leia as Regras na descriçao, instale o RCS para usar o auto woot e os gif personalizado aqui -> https://rcs.radiant.dj/install Divirta-se!",
     "welcomeback": "Bem vindo(a) de volta, %%NAME%%",
     "songknown": "/me :repeat: Essa música foi tocada %%PLAYS%% vez(es) nos últimos %%TIMETOTAL%%. Última vez: %%LASTTIME%% atrás. :repeat:",
     "timelimit": "@%%NAME%%, sua música tem duração maior que %%MAXLENGTH%% minutos. Você precisa de permissão para tocar músicas longas.",
