@@ -54,7 +54,7 @@ API.getWaitListPosition = function(id){
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/NCFCBot/basicBot/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/Koryoshe/NightBot/master/lang/pt.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -180,18 +180,18 @@ API.getWaitListPosition = function(id){
     var basicBot = {
         version: "3.1-NCFC",
         status: false,
-        name: "BotX",
+        name: "NightBlug",
         loggedInID: null,
         scriptLink: "https://rawgit.com/NCFCBot/basicBot-customization/master/extension.js",
         cmdLink: "https://tinyurl.com/ncfccommands",
-        chatLink: "https://rawgit.com/NCFCBot/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/Koryoshe/NightBot/master/lang/pt.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         settings: {
-            botName: "BotX",
-            language: "english",
-            chatLink: "https://rawgit.com/NCFCBot/basicBot/master/lang/en.json",
+            botName: "NightPlug",
+            language: "portuguese",
+            chatLink: "https://rawgit.com/Koryoshe/NightBot/master/lang/pt.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
