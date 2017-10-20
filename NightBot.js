@@ -248,7 +248,7 @@
     var basicBot = {
         version: '2.11.1',
         status: false,
-        name: 'NightBot',
+        name: 'NightPlug',
         loggedInID: null,
         scriptLink: 'https://rawgit.com/Koryoshe/NightBot/master/NightBot.js',
         cmdLink: 'http://git.io/245Ppg',
@@ -258,7 +258,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'NightBot',
+            botName: 'NightPlug',
             language: 'portugues',
             chatLink: 'https://rawgit.com/Koryoshe/NightBot/master/lang/pt.json',
             scriptLink: 'https://rawgit.com/Koryoshe/NightBot/master/NightBot.js',
@@ -1555,7 +1555,7 @@
             */
 
             activeCommand: {
-                command: 'ativar',
+                command: 'ativo',
                 rank: 'bouncer',
                 type: 'startsWith',
                 functionality: function(chat, cmd) {
