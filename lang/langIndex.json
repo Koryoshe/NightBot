@@ -1,8 +1,8 @@
 {
-    "ingles": "https://rawgit.com/Koryoshe/NightBot/master/lang/en.json",
-    "chinese": "https://rawgit.com/basicBot/source/master/lang/zh-TW.json",
+    "ingles": "https://raw.githack.com/Koryoshe/NightBot/master/lang/en.json",
+    "chinese": "https://raw.githack.com/basicBot/source/master/lang/zh-TW.json",
     "czech": "https://rawgit.com/basicBot/source/master/lang/cs.json",
-    "dutch": "https://rawgit.com/basicBot/source/master/lang/nl.json",
+    "dutch": "https://raw.githack.com/basicBot/source/master/lang/nl.json",
     "english": "https://rawgit.com/basicBot/source/master/lang/en.json",
     "french": "https://rawgit.com/basicBot/source/master/lang/fr.json",
     "german": "https://rawgit.com/basicBot/source/master/lang/de.json",
