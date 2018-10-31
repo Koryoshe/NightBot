@@ -112,7 +112,7 @@
 
     var loadChat = function(cb) {
         if (!cb) cb = function() {};
-        $.get('https://rawgit.com/Koryoshe/NightBot/master/lang/langIndex.json', function(json) {
+        $.get('https://raw.githack.com/Koryoshe/NightBot/master/lang/langIndex.json', function(json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== 'undefined') {
                 langIndex = json;
@@ -250,9 +250,9 @@
         status: false,
         name: 'NightPlug',
         loggedInID: null,
-        scriptLink: 'https://rawgit.com/Koryoshe/NightBot/master/NightBot.js',
+        scriptLink: 'https://raw.githack.com/Koryoshe/NightBot/master/NightBot.js',
         cmdLink: 'http://git.io/245Ppg',
-        chatLink: 'https://rawgit.com/Koryoshe/NightBot/master/lang/pt.json',
+        chatLink: 'https://raw.githack.com/Koryoshe/NightBot/master/lang/pt.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -260,8 +260,8 @@
         settings: {
             botName: 'NightPlug',
             language: 'portugues',
-            chatLink: 'https://rawgit.com/Koryoshe/NightBot/master/lang/pt.json',
-            scriptLink: 'https://rawgit.com/Koryoshe/NightBot/master/NightBot.js',
+            chatLink: 'https://raw.githack.com/Koryoshe/NightBot/master/lang/pt.json',
+            scriptLink: 'https://raw.githack.com/Koryoshe/NightBot/master/NightBot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 5, // 1-200
             startupVolume: 0, // 0-100
