@@ -319,9 +319,9 @@
             songstats: false,
             commandLiteral: '!',
             blacklists: {
-                NSFW: 'https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json',
-                OP: 'https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json',
-                BANNED: 'https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json'
+                NSFW: 'https://raw.githack.com/basicBot/custom/master/blacklists/NSFWlist.json',
+                OP: 'https://raw.githack.com/basicBot/custom/master/blacklists/OPlist.json',
+                BANNED: 'https://raw.githack.com/basicBot/custom/master/blacklists/BANNEDlist.json'
             }
         },
         room: {
@@ -1981,7 +1981,7 @@
                 command: 'botname',
                 rank: 'manager',
                 type: 'startsWith',
-                functionality: function(chat, cmd) {
+                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0);
                     else {
@@ -1999,7 +1999,7 @@
                     }
                 }
             },
-
+ 
             clearchatCommand: {
                 command: 'limparchat',
                 rank: 'manager',
@@ -2019,7 +2019,7 @@
                 }
             },
 
-            clearlocalstorageCommand: {
+             clearlocalstorageCommand: {
                 command: 'clearlocalstorage',
                 rank: 'manager',
                 type: 'exact',
@@ -2033,7 +2033,7 @@
                 }
             },
 
-            cmddeletionCommand: {
+             cmddeletionCommand: {
                 command: ['commanddeletion', 'cmddeletion', 'cmddel'],
                 rank: 'mod',
                 type: 'exact',
@@ -2058,7 +2058,7 @@
                 }
             },
 
-            commandsCommand: {
+             commandsCommand: {
                 command: 'comandos',
                 rank: 'user',
                 type: 'exact',
@@ -2074,7 +2074,7 @@
                 }
             },
 
-            cookieCommand: {
+             cookieCommand: {
                 command: 'biscoito',
                 rank: 'user',
                 type: 'startsWith',
@@ -2082,7 +2082,7 @@
                     var c = Math.floor(Math.random() * basicBot.chat.cookies.length);
                     return basicBot.chat.cookies[c];
                 },
-                functionality: function(chat, cmd) {
+                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0);
                     else {
@@ -2115,7 +2115,7 @@
                 }
             },
 
-            cycleCommand: {
+             cycleCommand: {
                 command: 'ciclo',
                 rank: 'manager',
                 type: 'exact',
@@ -2128,7 +2128,7 @@
                 }
             },
 
-            cycleguardCommand: {
+             cycleguardCommand: {
                 command: 'cicloguard',
                 rank: 'bouncer',
                 type: 'exact',
@@ -2154,7 +2154,7 @@
                 }
             },
 
-            cycletimerCommand: {
+             cycletimerCommand: {
                 command: 'ciclotimer',
                 rank: 'manager',
                 type: 'startsWith',
@@ -2178,7 +2178,7 @@
                 }
             },
 
-            dclookupCommand: {
+             dclookupCommand: {
                 command: ['dclookup', 'dc'],
                 rank: 'user',
                 type: 'startsWith',
@@ -2253,7 +2253,7 @@
             },
             */
 
-            deletechatCommand: {
+             deletechatCommand: {
                 command: 'deletarchat',
                 rank: 'mod',
                 type: 'startsWith',
@@ -2284,7 +2284,7 @@
                 }
             },
 
-            emojiCommand: {
+             emojiCommand: {
                 command: 'emoji',
                 rank: 'user',
                 type: 'exact',
